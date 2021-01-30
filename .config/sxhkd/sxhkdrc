@@ -39,7 +39,7 @@ Print
 	
 # Copy screenshot
 alt + Print	
-    shotgun $(hacksaw -f "-i %i -g %g") |  xclip -t 'image/png' -selection clipboard
+    scrot -s 'Image-%S.png' -e 'xclip -selection clipboard -target image/png -i $f'
 
 # Brighness control
 XF86MonBrightness{Up,Down}
