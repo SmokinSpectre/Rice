@@ -1,0 +1,51 @@
+IMAPStore smokinspectre@gmail.com-remote
+Host imap.gmail.com
+Port 993
+User smokinspectre@gmail.com
+PassCmd "pass mw-smokinspectre@gmail.com"
+AuthMechs LOGIN
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore smokinspectre@gmail.com-local
+Subfolders Verbatim
+Path /home/sm0ky/.local/share/mail/smokinspectre@gmail.com/
+Inbox /home/sm0ky/.local/share/mail/smokinspectre@gmail.com/INBOX
+
+Channel smokinspectre@gmail.com
+Expunge Both
+Master :smokinspectre@gmail.com-remote:
+Slave :smokinspectre@gmail.com-local:
+Patterns * !"[Gmail]/"
+Create Both
+SyncState *
+MaxMessages 0
+ExpireUnread no
+# End profile
+
+IMAPStore smokinspectre@cumallover.me-remote
+Host mail.cock.li
+Port 993
+User smokinspectre@cumallover.me
+PassCmd "pass mw-smokinspectre@cumallover.me"
+AuthMechs LOGIN
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore smokinspectre@cumallover.me-local
+Subfolders Verbatim
+Path /home/sm0ky/.local/share/mail/smokinspectre@cumallover.me/
+Inbox /home/sm0ky/.local/share/mail/smokinspectre@cumallover.me/INBOX
+Flatten .
+
+Channel smokinspectre@cumallover.me
+Expunge Both
+Master :smokinspectre@cumallover.me-remote:
+Slave :smokinspectre@cumallover.me-local:
+Patterns * !"[Gmail]/All Mail"
+Create Both
+SyncState *
+MaxMessages 0
+ExpireUnread no
+# End profile
+
