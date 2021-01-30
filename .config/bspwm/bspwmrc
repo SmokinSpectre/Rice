@@ -82,7 +82,7 @@ bspc rule -a Conky state=floating manage=off
 bspc rule -a stalonetray state=floating manage=off
 
 # rounded corners
-bspc config border_radius 10
+bspc config border_radius 15
 
 ## Autostart -------------------------------#
 
