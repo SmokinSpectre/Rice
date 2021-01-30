@@ -39,7 +39,7 @@ Print
 	
 # Copy screenshot
 alt + Print	
-	maim -s -u | xclip -selection clipboard -t image/png -i
+	shot
 
 # Brighness control
 XF86MonBrightness{Up,Down}
