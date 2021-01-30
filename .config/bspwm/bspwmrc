@@ -91,7 +91,7 @@ killall -9 sxhkd xsettingsd dunst xfce4-power-manager
 
 # Lauch notification daemon
 dunst \
--geom "280x50-10+40" -frame_width "1" -font "Iosevka Custom 9" \
+-geom "280x50-10+40" -frame_width "1" -font "Iosevka Custom 10" \
 -lb "$BACKGROUND" -lf "$FOREGROUND" -lfr "$BLUE" \
 -nb "$BACKGROUND" -nf "$FOREGROUND" -nfr "$BLUE" \
 -cb "$BACKGROUND" -cf "$RED" -cfr "$RED" &
