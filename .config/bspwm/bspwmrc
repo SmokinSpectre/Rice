@@ -81,6 +81,9 @@ bspc rule -a Viewnior state=floating follow=on focus=on
 bspc rule -a Conky state=floating manage=off
 bspc rule -a stalonetray state=floating manage=off
 
+# rounded corners
+bspc config border_radius 10
+
 ## Autostart -------------------------------#
 
 # Kill if already running
