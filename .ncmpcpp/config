@@ -35,3 +35,4 @@ visualizer_data_source = /tmp/mpd.fifo
 visualizer_fps = 60
 visualizer_in_stereo = yes
 visualizer_output_name = mpd_visualizer_fifo
+execute_on_song_change = kunst --silent
