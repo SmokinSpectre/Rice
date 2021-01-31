@@ -133,4 +133,3 @@ alias pokeshell='find /usr/share/pokeshell -type f -print0 | shuf -zn1 | xargs -
 alias btop='bpytop'
 alias clock='tty-clock'
 alias puff='cat /usr/share/pokeshell/39.pokemon'
-
