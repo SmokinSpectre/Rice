@@ -171,6 +171,7 @@
        calendar
        irc               ; how neckbeards socialize
        (rss +org)        ; emacs as an RSS reader
+       twitter
 
        :config
        (default +bindings +smartparens))
