@@ -50,21 +50,21 @@ bspc rule -a Termite desktop='^1' follow=on focus=on
 bspc rule -a firefox desktop='^2' follow=on focus=on
 
 # 3 > file
-bspc rule -a Pcmanfm desktop='^3' follow=on focus=on
+bspc rule -a Thunar desktop='^2' follow=on focus=on
 
-# 4 > office
+# 5 > office
 declare -a office=(Geany Gucharmap Evince \
 libreoffice-writer libreoffice-calc libreoffice-impress \
 libreoffice-startcenter libreoffice Soffice *:libreofficedev *:soffice)
 for i in ${office[@]}; do
    bspc rule -a $i desktop='^4' follow=on focus=on; done
 
-# 5 > media
+# 6 > media
 declare -a media=(Audacity mpv mplayer lxmusic Gimp Gimp-2.8)
 for i in ${media[@]}; do
    bspc rule -a $i desktop='^5' follow=on focus=on; done
 
-# 6 > settings
+# 7 > settings
 bspc rule -a GParted desktop='^6' follow=on focus=on
 declare -a settings=(Lxappearance Lxtask Lxrandr Arandr \
 System-config-printer.py Pavucontrol Exo-helper-1)
