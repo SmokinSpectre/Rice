@@ -12,12 +12,12 @@ style (){
 }
 
 # Apps
-theme_1=" Nord"
-theme_2=" Gruvbox"
-theme_3=" Dark"
-theme_4=" Cherry"
+theme_1=" Cherry"
+theme_2=" Fortune"
+theme_3=" Forest"
+theme_4=" Gruv"
 theme_5=" Groot"
-theme_6=" Fortune"
+theme_6=" Nord"
 
 # Variable passed to rofi
 options="$theme_1\n$theme_2\n$theme_3\n$theme_4\n$theme_5\n$theme_6"
@@ -25,22 +25,22 @@ options="$theme_1\n$theme_2\n$theme_3\n$theme_4\n$theme_5\n$theme_6"
 chosen="$(echo -e "$options" | $rofi_command -p "Available themes" -dmenu -selected-row 0)"
 case $chosen in
     $theme_1)
-        style nord
+        style cherry
         ;;
     $theme_2)
-        style gruvbox
+        style fortune
         ;;
     $theme_3)
-        style dark
+        style forest
         ;;
     $theme_4)
-        style cherry
+        style gruv
         ;;
     $theme_5)
         style groot
         ;;
     $theme_6)
-        style fortune
+        style nord
         ;;
 esac
 
