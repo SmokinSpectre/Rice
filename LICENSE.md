@@ -1,5 +1,5 @@
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                   Version 3, December 2021
+                   Version 3, January 2021
  
 Copyright (C) 2021 SmokinSpectre <smokinspectre@gmail.com>
 
