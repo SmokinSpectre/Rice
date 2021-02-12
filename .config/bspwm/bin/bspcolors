@@ -57,7 +57,7 @@ bspterm () {
 	[colors]
 
 	foreground=${FOREGROUND}
-    background= rgba(0, 0, 0, 0.5)
+    background=${BACKGROUND}
 	cursor=${CURSOR}
 
 	color0=${BLACK}
