@@ -14,9 +14,9 @@ style (){
 # Apps
 theme_1=" Cherry"
 theme_2=" Fortune"
-theme_3=" Forest"
-theme_4=" Gruv"
-theme_5=" Groot"
+theme_3=" Orion"
+theme_4=" Forest"
+theme_5=" Gruv"
 theme_6=" Nord"
 
 # Variable passed to rofi
@@ -31,17 +31,15 @@ case $chosen in
         style fortune
         ;;
     $theme_3)
-        style forest
+        style orion
         ;;
     $theme_4)
-        style gruv
+        style forest
         ;;
     $theme_5)
-        style groot
+        style gruv
         ;;
     $theme_6)
         style nord
         ;;
 esac
-
-
