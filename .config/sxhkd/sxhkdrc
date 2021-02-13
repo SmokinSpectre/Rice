@@ -138,4 +138,7 @@ alt + shift + {Left,Down,Up,Right}
 super + shift + i
 	winmask		
 
+# Switch Theme To Light
+super + shift + s
+    bspswitch
 ##---------- EOF ----------##
