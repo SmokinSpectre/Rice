@@ -40,6 +40,9 @@ Print
 # Copy screenshot
 alt + Print	
     scrot -s 'Image-%S.png' -e 'xclip -selection clipboard -target image/png -i $f'
+# Record screen
+super + Print
+    bsprec
 
 # Brighness control
 XF86MonBrightness{Up,Down}
@@ -137,8 +140,4 @@ alt + shift + {Left,Down,Up,Right}
 # Hide/Unhide Window
 super + shift + i
 	winmask		
-
-# Switch Theme To Light
-super + shift + s
-    bspswitch
-##---------- EOF ----------##
+#---------- EOF ----------##
