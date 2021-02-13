@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-
-# launch termite with other config
 if [ "$1" == "-f" ]; then
-	termite --class termite-float -c ~/.config/bspwm/termite/config
+     termite --class termite-float -c ~/.config/bspwm/termite/config
 else
-	termite -c ~/.config/bspwm/termite/config
+     termite -c ~/.config/bspwm/termite/config
 fi
