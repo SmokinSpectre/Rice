@@ -81,6 +81,36 @@ bspterm () {
 	killall -USR1 termite
 }
 
+bspterm_light () {
+	sed -i '/colors/Q' $DIR/termite/config
+	cat >> $DIR/termite/config <<- EOF	
+	[colors]
+
+	foreground=${FOREGROUND}
+    background=${BACKGROUND}
+	cursor=${CURSOR}
+
+	color0=${BLACK}
+	color1=${RED}
+	color2=${GREEN}
+	color3=${YELLOW}
+	color4=${BLUE}
+	color5=${MAGENTA}
+	color6=${CYAN}
+	color7=${WHITE}
+
+	color8=${ALTBLACK}
+	color9=${ALTRED}
+	color10=${ALTGREEN}
+	color11=${ALTYELLOW}
+	color12=${ALTBLUE}
+	color13=${ALTMAGENTA}
+	color14=${ALTCYAN}
+	color15=${ALTWHITE}
+	EOF
+	killall -USR1 termite
+}
+
 bsprofi () {
 	cat > $DIR/rofi/themes/colors.rasi <<- EOF	
 	* {
