@@ -40,9 +40,6 @@ Print
 # Copy screenshot
 alt + Print	
     scrot -s 'Image-%S.png' -e 'xclip -selection clipboard -target image/png -i $f'
-# Record screen
-super + Print
-    bsprec
 
 # Brighness control
 XF86MonBrightness{Up,Down}
