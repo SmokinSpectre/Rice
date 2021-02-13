@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+mode_dark ()
+{
+    if [ "$1" == "-f" ]; then
+     termite --class termite-float -c ~/.config/bspwm/termite/config
+else
+     termite -c ~/.config/bspwm/termite/config
+fi
+}
+
+mode_light ()
+{
+if [ "$1" == "-f" ]; then
+      termite --class termite-float -c ~/.config/bspwm/termite/config.orion
+ else
+      termite -c ~/.config/bspwm/termite/config.orion
+ fi
+}
+
+if [ $(grep -o "orion.jpg" ~/.fehbg) = 'orion.jpg' ]; then
+	mode_light
+else
+	mode_dark
+fi
+
