@@ -15,8 +15,8 @@ style (){
 theme_1=" Cherry"
 theme_2=" Fortune"
 theme_3=" Orion"
-theme_4=" Forest"
-theme_5=" Gruv"
+theme_4=" Doom"
+theme_5=" Forest"
 theme_6=" Nord"
 
 # Variable passed to rofi
@@ -34,10 +34,10 @@ case $chosen in
         style orion
         ;;
     $theme_4)
-        style forest
+        style doom
         ;;
     $theme_5)
-        style gruv
+        style forest
         ;;
     $theme_6)
         style nord
