@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/sm0ky/.config/bspwm/wallpapers/chery.jpg' 
+feh --no-fehbg --bg-fill '/home/sm0ky/.config/bspwm/wallpapers/cherry.jpg' 
