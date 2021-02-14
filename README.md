@@ -20,7 +20,7 @@ Here Are The Details About my Current Rice Setup:
 
 <br/><br/><br/>
 
-![alt text](Images/Banner_Theme.png)
+![alt text](Images/Banner_Themes.png)
 
 <br/><br/>
 
