@@ -8,7 +8,7 @@ export ZSH=$HOME/.oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="spaceship"
+ZSH_THEME="sm0ky"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME="archcraft"
@@ -130,8 +130,6 @@ alias clean='rm ~/.zsh_history'
 alias doom='~/.emacs.d/bin/doom'
 alias emacs='emacs -nw'
 alias pokeshell='find /usr/share/pokeshell -type f -print0 | shuf -zn1 | xargs -0 cat'
-alias btop='bpytop'
-alias clock='tty-clock'
 alias puff='cat /usr/share/pokeshell/39.pokemon'
 alias updatedb='doas updatedb'
 alias locate='doas locate'
