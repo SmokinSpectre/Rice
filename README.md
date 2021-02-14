@@ -37,7 +37,7 @@ Here Are The Details About my Current Rice Setup:
 <br/><br/>
 
 ## 🌈 Orion
-![alt text](https://github.com/zodd18/SolarizedDark/blob/master/screenshot.png) 
+![alt text](https://github.com/SmokinSpectre/Rice/blob/main/Images/Rice_Orion.png) 
 
 
 <br/><br/>
