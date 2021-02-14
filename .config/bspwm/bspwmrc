@@ -71,9 +71,6 @@ System-config-printer.py Pavucontrol Exo-helper-1)
 for i in ${settings[@]}; do
    bspc rule -a $i desktop='^6' state=floating follow=on focus=on; done
 
-# 8 > lunar
-bspc rule -a lunarclient desktop='^2' follow=on focus=on state=tiled
-
 # special rules
 bspc rule -a termite-float state=floating follow=on focus=on
 bspc rule -a Pcmanfm state=floating follow=on focusstate=floating=on
