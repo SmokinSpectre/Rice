@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-# backup default theme
-cp ~/.config/bspwm/termite/config ~/.config/bspwm/termite/config.bak
-
-# switch the theme to light
-cp ~/.config/bspwm/termite/config.light ~/.config/bspwm/termite/config
