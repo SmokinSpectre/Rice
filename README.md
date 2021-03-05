@@ -25,24 +25,24 @@ Here Are The Details About my Current Rice Setup:
 <br/><br/>
 
 ## 🌸 Cherry
-![alt text](https://github.com/SmokinSpectre/Rice/blob/main/Images/Rice_Cherry.png) 
+![alt text](Images/Rice_Cherry.png)
 
 
 <br/><br/>
 
 
 ## 🎀 Fortune
-![alt text](https://github.com/SmokinSpectre/Rice/blob/main/Images/Rice_Fortune.png) 
+![alt text](Images/Rice_Fortune.png) 
 
 <br/><br/>
 
 ## 🌈 Orion
-![alt text](https://github.com/SmokinSpectre/Rice/blob/main/Images/Rice_Orion.png) 
+![alt text](Images/Rice_Orion.png) 
 
 
 <br/><br/>
 
 ## 🔥 Doom
-![alt text](https://github.com/SmokinSpectre/Rice/blob/main/Images/Rice_Doom.png) 
+![alt text](Images/Rice_Doom.png)
 
-<br/><br/>
+
