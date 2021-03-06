@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/sm0ky/.config/bspwm/bin:/home/sm0ky/.local/bin:/home/sm0ky/.scripts:/home/sm0ky/.cargo/bin
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/sm0ky/.config/bspwm/bin:/home/sm0ky/.local/bin:/home/sm0ky/.cargo/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -71,6 +71,8 @@ ZSH_THEME="sm0ky"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # User configuration
 
@@ -99,7 +101,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # starship
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 
 # fetch
 # pfetch
