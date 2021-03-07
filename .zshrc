@@ -123,6 +123,7 @@ alias gi='git init'
 alias ga='git add'
 alias gr='git rm'
 alias gc='git commit -m'
+alias gs='git switch'
 alias gp='git push'
 alias gpl='git pull'
 
