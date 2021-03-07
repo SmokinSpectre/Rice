@@ -100,7 +100,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # starship
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 # fetch
 # pfetch
