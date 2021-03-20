@@ -8,16 +8,16 @@ I Hope You Understand Everything Here :wink:
 
 Here Are The Details About My Current Desktop Setup:
 <a href="https://wiki.installgentoo.com/index.php/GNU/Linux_Ricing"><img src="Images/Banner_Rice.png" alt="" align="right" width="400px"></a>
-- **Distro**                   : [Arch](https://archlinux.org/) ⛩️
-- **Window Manager**           : [BSPWM](https://github.com/baskerville/bspwm) :art:
-- **Prompt**                   : [StarShip](https://starship.rs/) 🚀
-- **Terminal**                 : [Termite](https://github.com/thestinger/termite/) :cat:
-- **Panel**                    : [PolyBar](https://github.com/polybar/polybar) :shaved_ice:
-- **Compositor**               : [Picom](https://github.com/yshui/picom) :sparkles:
-- **Notifications Daemon**    : [Dunst](https://github.com/dunst-project/dunst) :leaves:
-- **Application Launcher**    : [Rofi](https://github.com/davatorium/rofi) 🎉
-- **File Manager**            : [Thunar](https://github.com/ranger/ranger) :bookmark:
-- **Text Editor**             : [Vim](https://github.com/vim/vim) :computer:
+- **Distro**                   : [Arch](https://archlinux.org/)
+- **Window Manager**           : [BSPWM](https://github.com/baskerville/bspwm)
+- **Prompt**                   : [StarShip](https://starship.rs/)
+- **Terminal**                 : [Termite](https://github.com/thestinger/termite/)
+- **Panel**                    : [PolyBar](https://github.com/polybar/polybar)
+- **Compositor**               : [Picom](https://github.com/yshui/picom)
+- **Notifications Daemon**    : [Dunst](https://github.com/dunst-project/dunst)
+- **Application Launcher**    : [Rofi](https://github.com/davatorium/rofi)
+- **File Manager**            : [Thunar](https://github.com/ranger/ranger)
+- **Text Editor**             : [Vim](https://github.com/vim/vim)
 
 <br/><br/><br/>
 
