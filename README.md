@@ -7,7 +7,7 @@
 I Hope You Understand Everything Here :wink:
 
 Here Are The Details About My Current Desktop Setup:
-<a href="https://wiki.installgentoo.com/index.php/GNU/Linux_Ricing"><img src="Images/Banner_Rice.png" alt="" align="right" width="400px"></a>
+<a href="https://wiki.installgentoo.com/index.php/GNU/Linux_Ricing"><img src="Images/Banner_Rice.png" alt="" align="right" width="380px"></a>
 - **Distro**                   : [Arch](https://archlinux.org/)
 - **Window Manager**           : [BSPWM](https://github.com/baskerville/bspwm)
 - **Prompt**                   : [StarShip](https://starship.rs/)
