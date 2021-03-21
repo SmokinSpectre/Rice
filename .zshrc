@@ -1,6 +1,3 @@
-# If you come from bash you might have to change your $PATH.
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/sm0ky/.config/bspwm/bin:/home/sm0ky/.local/bin:/home/sm0ky/.cargo/bin
-
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -131,7 +128,5 @@ alias gpl='git pull'
 alias clean='rm ~/.zsh_history'
 alias doom='~/.emacs.d/bin/doom'
 alias emacs='emacs -nw'
-alias pokeshell='find /usr/share/pokeshell -type f -print0 | shuf -zn1 | xargs -0 cat'
-alias puff='cat /usr/share/pokeshell/39.pokemon'
 alias updatedb='sudo updatedb'
 alias locate='sudo locate'
