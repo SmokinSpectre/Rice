@@ -99,8 +99,8 @@ fi
 # starship
 # eval "$(starship init zsh)"
 
-# fetch
-# pfetch
+# cargo
+# export PATH=$HOME/.cargo/bin:$PATH
 
 # omz
 alias zshconfig="geany ~/.zshrc"
