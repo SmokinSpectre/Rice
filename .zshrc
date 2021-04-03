@@ -68,7 +68,7 @@ ZSH_THEME="sm0ky"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
@@ -97,10 +97,10 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # starship
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 
 # cargo
-# export PATH=$HOME/.cargo/bin:$PATH
+export PATH=$HOME/.cargo/bin:$PATH
 
 # omz
 alias zshconfig="geany ~/.zshrc"
@@ -130,3 +130,4 @@ alias doom='~/.emacs.d/bin/doom'
 alias emacs='emacs -nw'
 alias updatedb='sudo updatedb'
 alias locate='sudo locate'
+alias shade='convert $Shade \( +clone -background black -shadow 90x10+0+0+0 \) +swap -bordercolor none -border 20 -background none -layers merge +repage $Shade'
