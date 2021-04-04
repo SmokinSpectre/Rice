@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Add Image To Variable
+Image=$1
+
+# Shade Image
+convert $Image \( +clone -background black -shadow 90x10+0+0+0 \) +swap -bordercolor none -border 20 -background none -layers merge +repage $Image
+
