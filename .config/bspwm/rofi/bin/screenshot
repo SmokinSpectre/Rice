@@ -21,7 +21,7 @@ case $chosen in
         scrot -s 'Image-%S.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f ; xclip -selection clipboard -target image/png -i $f'
         ;;
     $window)
-        sleep 1; scrot -u 'Image-%S.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f ; shade $f'
+        sleep 1; scrot -u 'Image-%S.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
         ;;
 esac
 
