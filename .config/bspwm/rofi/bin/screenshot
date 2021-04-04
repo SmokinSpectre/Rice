@@ -15,13 +15,13 @@ options="$screen\n$area\n$window"
 chosen="$(echo -e "$options" | $rofi_command -p 'Screenshot' -dmenu -selected-row 1)"
 case $chosen in
     $screen)
-        sleep 1; scrot 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
+        sleep 1; scrot 'Image-%S.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
         ;;
     $area)
-        scrot -s 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
+        scrot -s 'Image-%S.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f ; xclip -selection clipboard -target image/png -i $f'
         ;;
     $window)
-        sleep 1; scrot -u 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
+        sleep 1; scrot -u 'Image-%S.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f ; shade $f'
         ;;
 esac
 
