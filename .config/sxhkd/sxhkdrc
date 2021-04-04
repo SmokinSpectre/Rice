@@ -37,10 +37,6 @@ super + shift + {f,w,e}
 Print
     scrot 'Image-%S.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
 	
-# Copy screenshot
-alt + Print	
-    scrot -s 'Image-%S.png' -e 'xclip -selection clipboard -target image/png -i $f'
-
 # Brighness control
 XF86MonBrightness{Up,Down}
 	backlight{-up,-down}
