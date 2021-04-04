@@ -102,6 +102,9 @@ eval "$(starship init zsh)"
 # cargo
 export PATH=$HOME/.cargo/bin:$PATH
 
+# scripts
+export PATH=$HOME/.scripts:$PATH
+
 # omz
 alias zshconfig="geany ~/.zshrc"
 alias ohmyzsh="thunar ~/.oh-my-zsh"
@@ -130,4 +133,3 @@ alias doom='~/.emacs.d/bin/doom'
 alias emacs='emacs -nw'
 alias updatedb='sudo updatedb'
 alias locate='sudo locate'
-alias shade='convert $Shade \( +clone -background black -shadow 90x10+0+0+0 \) +swap -bordercolor none -border 20 -background none -layers merge +repage $Shade'
