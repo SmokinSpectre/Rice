@@ -68,7 +68,7 @@ ZSH_THEME="sm0ky"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
@@ -97,13 +97,13 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # starship
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 # cargo
-export PATH=$HOME/.cargo/bin:$PATH
+# export PATH=$HOME/.cargo/bin:$PATH
 
 # scripts
-export PATH=$HOME/.scripts:$PATH
+# export PATH=$HOME/.scripts:$PATH
 
 # omz
 alias zshconfig="geany ~/.zshrc"
