@@ -1,0 +1,15 @@
+: 1618301421:0;yay -Syyu
+: 1618302607:0;yay -S noto-fonts-extra noto-fonts-emoji noto-fonts-emoji-blob
+: 1618302777:0;yay -S ttf-fira-code nerd-fonts-fira-code
+: 1618302870:0;yay -S android-tools simple-mtpfs
+: 1618302944:0;yay -S bleachbit mlocate
+: 1618302963:0;yay -S nerdfetch pfetch
+: 1618302992:0;yay -S gimp vlc
+: 1618303157:0;yay -S discord betterdiscord
+: 1618303644:0;yay -S vscodium-bin vscodium-bin-marketplace
+: 1618303739:0;yay -S firefox spotify
+: 1618303995:0;yay -S yetris lunar-client
+: 1618304129:0;yay -S picom-jonaburg-git plymouth-theme-arch-breeze-git
+: 1618304233:0;yay -S asciinema giph
+: 1618304287:0;yay -S zsh-syntax-highlighting-git zsh-autocomplete-git
+: 1618304321:0;yay -Sc
