@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #ColFetch: Simple Script To Fetch Colors With Your Cursor
 #Author: SmokinSpectre
-#Dependencies: ImageMagick, Feh, Dunst
+#Dependencies: ImageMagick, Feh, Dunst, Hybrid Icon Theme
 
 color=$(colorpicker --short --one-shot)
 image=/tmp/$color.png
@@ -32,6 +32,6 @@ convert -size 100x100 xc:"$color" -gravity Center -pointsize 20 -font Iosevka -f
 # copy color code to clipboard
 echo $color | tr -d "\n" | xclip -selection clipboard
 # notify about it
-dunstify -u low -i /usr/share/icons/Hybrid/actions/32/color-management.svg "$color, copied to clipboard."
+dunstify -u low -i /usr/share/icons/Hybrid/actions/32/color-management.svg "$color, Copied Hex To Clipboard"
 # display image using an image viewer 
 feh --borderless --geometry=100x100 --title="$color" $image &>/dev/null
